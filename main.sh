@@ -14,9 +14,9 @@ echo "2) Desinstalar"
 echo ""
 read -p "Opção: " opcao
 
-if [ $opcao -eq 1 ]; then
+if [ $opcao -eq "1" ]; then
   source install.sh
-elif [ $opcao -eq 2 ]; then
+elif [ $opcao -eq "2" ]; then
   source uninstall.sh
 else
   echo "Opção inválida."
