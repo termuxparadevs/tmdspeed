@@ -43,9 +43,9 @@ mv speedtest-cli $PREFIX/bin/
 
 if [ ! -f $PREFIX/bin/tmdspeed ]; then
   ln -s $PREFIX/bin/speedtest-cli $PREFIX/bin/tmdspeed
-  echo "Link simbólico criado com sucesso: tmdspeed -> speedtest-cli"
+  echo "Link simbólico criado com sucesso: tmdspeed"
 else
-  echo "Link simbólico já existe: tmdspeed -> speedtest-cli"
+  echo "Link simbólico já existe: tmdspeed"
 fi
 
 
