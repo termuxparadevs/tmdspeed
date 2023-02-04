@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # Cabeçalho
 # Nome: install.sh
 # Autor: TMD - Termux para Devs
