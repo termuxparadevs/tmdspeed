@@ -40,7 +40,13 @@ echo "Baixando arquivo..."
 curl -Lo speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py
 chmod +x speedtest-cli
 mv speedtest-cli $PREFIX/bin/
-ln -s $PREFIX/bin/speedtest-cli $PREFIX/bin/tmdspeed
+
+if [ ! -f $PREFIX/bin/tmdspeed ]; then
+  ln -s $PREFIX/bin/speedtest-cli $PREFIX/bin/tmdspeed
+  echo "Link simbólico criado com sucesso: tmdspeed -> speedtest-cli"
+else
+  echo "Link simbólico já existe: tmdspeed -> speedtest-cli"
+fi
 
 
 echo ""
