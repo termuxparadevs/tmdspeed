@@ -13,6 +13,7 @@ echo "1) Instalar"
 echo "2) Desinstalar"
 echo ""
 
-read -p "Opção: " opcao
+echo -n "Digite sua entrada: "
+read entrada
 
 
