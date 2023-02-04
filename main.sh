@@ -9,5 +9,5 @@ echo "#                                                 #"
 echo "###################################################"
 echo ""
 
-source install.sh
+./install.sh
 
