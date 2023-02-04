@@ -14,7 +14,7 @@ echo "2) Desinstalar"
 echo ""
 
 opcao=0
-read -p "Opção: " opcao
+read -p "Opção: " $opcao
 
 if [ $opcao -eq 1 ]; then
   source install.sh
