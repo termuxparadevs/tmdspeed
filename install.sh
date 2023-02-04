@@ -24,9 +24,12 @@ then
     pkg in python3
 fi
 
-curl -Lo speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py
-chmod +x speedtest-cli
-ln -s speedtest-cli tmdspeed
+curl -Lo $PREFIX/bin/speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py
+chmod +x $PREFIX/bin/speedtest-cli
+ln -s $PREFIX/bin/speedtest-cli tmdspeed
+
+echo -e "\033[0;32mArquivo speedtest-cli baixado com sucesso!\033[0m"
+ls -lh $PREFIX/bin/speedtest-cli
 
 # Utilização:
 # Depois de rodar o script install.sh, você pode executar o comando "tmdspeed" a partir de qualquer diretório no seu terminal Termux. 
