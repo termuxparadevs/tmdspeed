@@ -13,10 +13,10 @@ Este script foi criado com o objetivo de facilitar a instalação da biblioteca 
 
 
 ## Utilização
- *1 Clone este repositório para o seu dispositivo.
- *2 Abra o terminal e navegue até a pasta do repositório clonado.
- *3 Execute o script install.sh com o seguinte comando: sh install.sh
- *4 Depois de concluir a instalação, você pode executar o comando "tmdspeed" a partir de qualquer diretório no terminal Termux.
+ - Clone este repositório para o seu dispositivo.
+ - Abra o terminal e navegue até a pasta do repositório clonado.
+ - Execute o script install.sh com o seguinte comando: sh install.sh
+ -: Depois de concluir a instalação, você pode executar o comando "tmdspeed" a partir de qualquer diretório no terminal Termux.
 
 
 ## Detalhes da Criação
