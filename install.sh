@@ -29,9 +29,9 @@ chmod +x $PREFIX/bin/speedtest-cli
 ln -s $PREFIX/bin/speedtest-cli $PREFIX/bin/tmdspeed
 
 echo ""
-echo -e "\033[0;32mTMD - Arquivo tmdspeed baixado com sucesso!\033[0m"
-echo ""
-SIZE=$(:wqdu -h $PREFIX/bin/speedtest-cli | awk '{print $1}')
+echo -e "\033[0;32mTMD - Arquivo tmdspeed baixado com sucesso!\033[0m\n"
+
+SIZE=$(du -h $PREFIX/bin/speedtest-cli | awk '{print $1}')
 echo "O tamanho do arquivo baixado foi de $SIZE"
 
 # Utilização:
