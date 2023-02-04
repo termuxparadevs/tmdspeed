@@ -26,10 +26,13 @@ fi
 
 curl -Lo $PREFIX/bin/speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py
 chmod +x $PREFIX/bin/speedtest-cli
-ln -s $PREFIX/bin/speedtest-cli tmdspeed
+ln -s $PREFIX/bin/speedtest-cli $PREFIX/bin/tmdspeed
 
-echo -e "\033[0;32mArquivo speedtest-cli baixado com sucesso!\033[0m"
-ls -lh $PREFIX/bin/speedtest-cli
+echo ""
+echo -e "\033[0;32mTMD - Arquivo tmdspeed baixado com sucesso!\033[0m"
+echo ""
+SIZE=$(:wqdu -h $PREFIX/bin/speedtest-cli | awk '{print $1}')
+echo "O tamanho do arquivo baixado foi de $SIZE"
 
 # Utilização:
 # Depois de rodar o script install.sh, você pode executar o comando "tmdspeed" a partir de qualquer diretório no seu terminal Termux. 
