@@ -1,14 +1,3 @@
-#!/usr/bin/env bash
-
-# Cabeçalho
-# Nome: install.sh
-# Autor: TMD - Termux para Devs
-# Fonte: speedtest-cli (https://github.com/sivel/speedtest-cli)
-# Descrição: Este script automatiza a instalação da biblioteca speedtest-cli no Termux. 
-# Ele verifica se o curl e o Python3 estão instalados e, se não estiverem, instala-os automaticamente. 
-# Em seguida, ele baixa o script speedtest-cli, torna-o executável e cria um link simbólico para tmdspeed.
-# O objetivo deste script é facilitar a instalação da biblioteca speedtest-cli no Termux, garantindo que todas as dependências estejam instaladas antes de baixar o script.
-
 #!/bin/bash
 
 clear
