@@ -8,12 +8,6 @@ echo "#                  do tmdspeed                    #"
 echo "#                                                 #"
 echo "###################################################"
 echo ""
-echo "Escolha uma opção:"
-echo "1) Instalar"
-echo "2) Desinstalar"
-echo ""
 
-echo -n "Digite sua entrada: "
-read entrada
-
+source install.sh
 
