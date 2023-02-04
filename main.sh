@@ -14,7 +14,7 @@
 clear
 echo "###################################################"
 echo "#                                                 #"
-echo "#       Bem vindo ao Instalador/Desinstalador     #"
+echo "#            Bem vindo ao Instalador              #"
 echo "#                  do tmdspeed                    #"
 echo "#                                                 #"
 echo "###################################################"
